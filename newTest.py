@@ -2,7 +2,7 @@
 
 import sys
 
-a = sys.argv[1]
+a = input("What name would you like to give your new file: ")
 
 f = open(a,"x")
 
